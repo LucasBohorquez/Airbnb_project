@@ -40,7 +40,7 @@ function Barra() {
             </div>
             <Link to='/'><img className='hidden w-102px sm:hidden md:block lg:block xl:hidden 2xl:hidden' src={Air}/></Link>
     <div className='my-8'>
-        <ol className='flex w-full justify-between gap-12 sm:gap-40 md:gap-20'>
+        <ol className='flex w-full justify-between gap-10 sm:gap-40 md:gap-20'>
             <li className='flex flex-col md:flex-row items-center cursor-pointer'><img className='w-[47px]' src='https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-search-bar-icons/original/4aae4ed7-5939-4e76-b100-e69440ebeae4.png?im_w=240'/>Alojamientos</li>
             <li className='flex flex-col md:flex-row items-center cursor-pointer'><img className='w-[47px]' src='https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-search-bar-icons/original/e47ab655-027b-4679-b2e6-df1c99a5c33d.png?im_w=240'/>Experiencias</li>
             <li className='flex flex-col md:flex-row items-center cursor-pointer'><img className='w-[47px]' src='https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-search-bar-icons/original/3d67e9a9-520a-49ee-b439-7b3a75ea814d.png?im_w=240'/>Servicios</li>
@@ -94,7 +94,7 @@ return (
             </div>
             <Link to='/'><img className='hidden w-102px sm:hidden md:block lg:block xl:hidden 2xl:hidden' src={Air}/></Link>
     <div className='my-8'>
-        <ol className='flex w-full justify-between gap-12 sm:gap-40 md:gap-20'>
+        <ol className='flex w-full justify-between gap-10 sm:gap-40 md:gap-20'>
             <li className='flex flex-col md:flex-row items-center cursor-pointer'><img className='w-[47px]' src='https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-search-bar-icons/original/4aae4ed7-5939-4e76-b100-e69440ebeae4.png?im_w=240'/>Alojamientos</li>
             <li className='flex flex-col md:flex-row items-center cursor-pointer'><img className='w-[47px]' src='https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-search-bar-icons/original/e47ab655-027b-4679-b2e6-df1c99a5c33d.png?im_w=240'/>Experiencias</li>
             <li className='flex flex-col md:flex-row items-center cursor-pointer'><img className='w-[47px]' src='https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-search-bar-icons/original/3d67e9a9-520a-49ee-b439-7b3a75ea814d.png?im_w=240'/>Servicios</li>
