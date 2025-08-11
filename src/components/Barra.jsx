@@ -48,7 +48,7 @@ function Barra() {
     </div>
     
         <ol className='gap-2.5 hidden md:flex lg:flex xl:flex 2xl:flex items-center'>
-            <Link to="/Anfitrion"> <li className='hidden font-bold xl:block text-[14px]'>Conviertete en Anfitrión</li></Link>
+            <Link to="/Anfitrion"> <li className='hidden font-bold xl:block text-[14px]'>Conviertete en Anfitriónn</li></Link>
             <li><Auth/></li>
         </ol>
         </div>
