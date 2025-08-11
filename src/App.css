@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE y Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+.posicion{
+  @apply flex flex-col-reverse bg-white fixed z-10 md:flex-col lg:flex-col xl:flex-col 2xl:flex-col
+}
+#root{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari y Opera */
+}
+
+.header{
+ @apply flex justify-center items-center mb-[-10px] md:justify-around lg:justify-around xl:justify-around 2xl:justify-around
+}
+.input{
+  @apply w-[214px] md:w-[151px]
+}
+.textinput{
+  @apply text-[12px] font-bold
+}
+.search1{
+  @apply cursor-pointer py-2.5 px-3
+}
+.formu{
+  @apply w-48 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  
+}
