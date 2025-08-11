@@ -1,6 +1,7 @@
 import { supabase } from '../supabaseClient';
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import { useSession } from '@supabase/auth-helpers-react'
 import Auth from '../components/Auth';
 import Logout from '../components/Logout';
 
