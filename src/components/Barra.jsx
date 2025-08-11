@@ -56,7 +56,7 @@ function Barra() {
                 <div className='flex justify-center group shadow rounded-full border-2 p-1.5 w-lg md:w-auto'>
                     <div className='flex gap-14 search1 md:hidden lg:hidden xl:hidden 2xl:hidden'>
                         <img className='w-[15px]' src={Lupa} />
-                        <div className='input focus:outline-none'>Empieza la busqueda</div>
+                        <input className='input focus:outline-none' type='text' placeholder='Empieza la busqueda'/>
                      </div>
                     <div className='hidden md:flex lg:flex xl:flex 2xl:flex'>
                     <div className='search1'>
@@ -111,7 +111,7 @@ return (
                 <div className='flex justify-center group shadow rounded-full border-2 p-1.5 w-lg md:w-auto'>
                     <div className='flex gap-14 search1 md:hidden lg:hidden xl:hidden 2xl:hidden'>
                         <img className='w-[15px]' src={Lupa} />
-                        <div className='input focus:outline-none'>Empieza la busqueda</div>
+                        <input className='input focus:outline-none' type='text' placeholder='Empieza la busqueda' />
                      </div>
                     <div className='hidden md:flex lg:flex xl:flex 2xl:flex'>
                     <div className='search1'>
